@@ -1,19 +1,7 @@
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'https://github.com/vim-syntastic/syntastic.git'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'tpope/vim-surround'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
 filetype off
 filetype plugin indent on    " requiredd
 " Turn on syntax highlighting
@@ -115,4 +103,4 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 " put https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 " in ~/.vim/colors/ and uncomment:
-colorscheme badwolf
+colorscheme koehler
